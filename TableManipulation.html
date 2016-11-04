@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <title>Table Manipulation</title>
+
+</head>
+
+<body ng-app="TableApp" ng-controller="TableCtrl">
+
+<h3>Person List</h3>
+
+<fieldset>
+    <legend>Add or Remove Person</legend>
+    <input type="text" ng-model="name" placeholder="Name" ><br />
+    <input type="number" ng-model="age" placeholder="Age" ><br />
+    <input type="text" ng-model="location" placeholder="Location" ><br />
+        <option value="Pune" >Pune</option>
+    </select><br />
+    <button type="button" ng-click="addPerson()">Add Person</button>
+</fieldset>
+
+<table>
+    <thead>
+    <tr>
+        <th>
+            No
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Age
+        </th>
+        <th>
+            Location
+        </th>
+        <th>
+
+        </th>
+    </tr>
+    </thead>
+    <body>
+    <tr ng-repeat="person in people">
+        <td>
+            {{ $index+1}}
+        </td>
+        <td>
+            {{ person.name }}
+        </td>
+        <td>
+            {{ person.age }}
+        </td>
+        <td>
+            {{ person.location }}
+        </td>
+        <td>
+            <button type="button" ng-click="removePerson($index)">Remove Person</button>
+        </td>
+    </tr>
+    </body>
+</table>
+<script src="./lib/angular.js"></script>
+<script src="scripts/controller/TableManipulation.js"></script>
+</body>
+</html>

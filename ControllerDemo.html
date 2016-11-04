@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="lib/angular.js"></script>
+</head>
+<body ng-app="ControllerApp">
+<div ng-controller="Controller1">
+    <span ng-bind="message"></span><br>
+
+    Name :<input type="text" title="name" ng-model="name"><br>
+    Your Name : {{sayHello()}}
+</div>
+<script src="scripts/controller/ControllerDemo.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Demo</title>
+    <style>
+        input.ng-pristine.ng-invalid{
+            background-color: dimgray;
+        }
+        input.ng-valid{
+            background-color: rgba(114, 255, 245, 0.61);
+        }
+        input.ng-invalid{
+            background-color: rgba(255, 145, 58, 0.61);
+        }
+    </style>
+</head>
+<body ng-app="FilterApp">
+    <form name="uform" ng-controller="FormCtrl" ng-submit="handelRequest()">
+        <fieldset>
+            <legend>>-Form Submit Action-<</legend>
+    Name     :<input type="text" name="name" title="name" ng-model="user.name" ng-pattern="/^[a-zA-Z0-9_]*$/" ng-minlength="2" ng-maxlength="10" Required>
+              <span ng-show="uform.name.$error.required" style="color: brown"> Required</span>
+            <span ng-show="uform.name.$error.minlength" style="color: crimson"> Min character length is - 2</span>
+            <span ng-show="uform.name.$error.maxlength" style="color: darkred"> Max character length is - 10</span>
+            <span ng-show="uform.name.$error.pattern" style="color: darkred"> Pattern should be matched</span><br>
+    Email    :<input type="email" title="email" ng-model="user.email"><br>
+    Password :<input type="password" title="password" ng-model="user.password" ng-minlength="2" ng-maxlength="10"><br>
+    Gender   :<input type="radio" value="male" ng-model="user.gender">Male
+              <input type="radio" value="female" ng-model="user.gender">Female<br>
+     Subscribe for Newsletter ?
+            <input type="checkbox" ng-model="user.subscribe" ng-true-value="'Yes'" ng-false-value="'No'"><br>
+            <select ng-model="user.city" ng-options="city for city in cities"></select>
+    <button type="submit"ng-disabled="uform.$invalid">Submit</button>
+            {{response}}
+        </fieldset>
+        {{user|json}}<br>
+
+        isPristine : {{uform.name.$pristine}}<br>
+        isDirty :{{uform.name.$dirty}}<br>
+        isValid :{{uform.name.$valid}}<br>
+        isInvalid :{{uform.name.$invalid}}<br>
+        Error : {{uform.name.$error}}<br>
+    </form>
+<script src="lib/angular.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/controller/FilterController.js"></script>
+</body>
+</html>

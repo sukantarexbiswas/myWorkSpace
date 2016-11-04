@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="FilterApp">
+<div ng-controller="FilterController">
+    <form>
+        Name : <input ng-model="ust.name">
+        Price : <input ng-model="ust.price">
+        Currency : <input ng-model="ust.currency">
+        Location :<select ng-model="count">
+        <option value="1" >One</option>
+        <option value="2">Two</option>
+        <option value="3" >Three</option>
+        <option value="4" >Four</option>
+    </select>
+    </form>
+    <hr><p>
+    Name in UpperCase : {{ust.name|uppercase}}<br>
+    Name in LowerCase : {{ust.name|lowercase}}<br>
+    Price : {{ust.price|number:2}}<br>
+    Currency : {{ust.currency|currency:'Rs.'}}<br>
+    Date : {{now|date:'dd-MM-yyyy'}}<br>
+    Array : {{numbers|reverseArray}}<br>
+    Arrage by :
+    <input type="radio" ng-model="sfield" value="name"> Name
+    <input type="radio" ng-model="sfield" value="city"> City
+    </p></hr>
+
+    <p><table border="2">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Age
+            </th>
+            <th>
+                City
+            </th>
+        </tr>
+    </thead>
+
+        <tr ng-repeat="user in users|limitTo:count|orderBy:sfield">
+
+            <td>
+                {{ $index+1 }}
+            </td>
+            <td>
+                {{ user.name  }}
+            </td>
+            <td>
+                {{ user.age }}
+            </td>
+            <td>
+                {{ user.city | myFilter:0:3 }}
+            </td>
+
+        </tr>
+    </table></p>
+
+
+</div>
+<script src="lib/angular.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/controller/FilterController.js"></script>
+</body>
+</html>

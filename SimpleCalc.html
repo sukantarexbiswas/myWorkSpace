@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="lib/angular.js"></script>
+</head>
+<body ng-app="ControllerApp">
+<div ng-controller="CalController">
+    <p><fieldset>
+    <legend>Sum</legend>
+    Num1 : <input type="number" title="n1" ng-model="num1"><br>
+    Num2 : <input type="number" title="n2" ng-model="num2"><br>
+    Sum  :  {{calculate()}}
+</fieldset></p>
+</div>
+<script src="scripts/controller/ControllerDemo.js"></script>
+</body>
+</html>

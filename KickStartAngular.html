@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular KickStart</title>
+    <script src="lib/angular.js"></script>
+</head>
+<body ng-app="ngLocale">
+
+<!--
+<div class="Controller1">
+   <p> Testing Angular {{2-9}}</p>
+</div>
+
+<div class="Controller2">
+    <p>Testing Angular {{2-3}}</p>
+</div>
+-->
+
+<div class="Controller3">
+  <!-- <p> Testing Angular {{2-1}}</p>-->
+    <p>Name : <input title="Name" type="text" ng-model="name"></p>
+    <p><h3>Hello {{name}}</h3></p>
+    <p>Name => <span ng-bind="name"></span></p>
+
+    Location :<select ng-model="city">
+        <option value="Pune" >Pune</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Delhi" >Delhi</option>
+        <option value="Kolkata" >Kolkata</option>
+    </select></br>
+    <p>You have selected : <span ng-bind="city"></span></p>
+</select></br>
+</div>
+
+
+</body>
+</html>
