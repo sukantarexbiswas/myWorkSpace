@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Directive</title>
+</head>
+<body ng-app="FilterApp" ng-controller="CalController">
+<div>
+    Num1 : <input type="number" ng-model="num1"><br>
+    Num2 : <input type="number" ng-model="num2"><br>
+    <button ng-click="calculate()">Submit</button>
+    <table border="1">
+        <tr><th>Add</th><th>Sub</th><th>Mul</th><th>Div</th></tr>
+        <tr>
+            <td>{{add}}</td>
+            <td>{{sub}}</td>
+            <td>{{mul}}</td>
+            <td>{{div}}</td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+<script src="lib/angular.js"></script>
+<script src="lib/angular-ui-router.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/controller/calController.js"></script>
+<script src="scripts/service/calcService.js"></script>
+</html>

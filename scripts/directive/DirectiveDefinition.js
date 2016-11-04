@@ -13,8 +13,22 @@ app.directive('myFirstDirective',function () {
 app.directive('displayUser',function () {
     return {
         //Return directive definition from this constructor
-        restrict : 'E',
-        template : "<p><h3> Name : {{user.Name}} <br> Age : {{user.Age}}</h3></p>"
+        restrict : 'AE',
+        template : "<p><h3> Name : {{user.Name}} <br> Age : {{user.Age}}</h3></p>",
+        link:function (scope,element,attr) {
+            element.bind('click',function () {
+               element.html('<br>You clicked on this</b>');
+                element.css('backgroundColor','yellow')
+            });
+            element.bind('mouseenter',function () {
+                element.html('<br>Mouse Entered</b>');
+                element.css('backgroundColor','cyan')
+            });
+            element.bind('mouseleave',function () {
+                element.html('<br>Mouse Leaved</b>');
+                element.css('backgroundColor','grey')
+            });
+        }
     }
 });
 
