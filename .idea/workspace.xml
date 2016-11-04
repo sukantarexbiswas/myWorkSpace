@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="246bfbb5-4cf8-4c72-b21a-d2f3a4d61c77" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomDirective.html" afterPath="$PROJECT_DIR$/CustomDirective.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/directive/DirectiveDefinition.js" afterPath="$PROJECT_DIR$/scripts/directive/DirectiveDefinition.js" />
     </list>
     <ignored path="myWorkSpace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServicesDemo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServicesDemo.html">
+      <file leaf-file-name="HttpServicesDemo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HttpServicesDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+            <state relative-caret-position="357">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/controller/calController.js">
+      <file leaf-file-name="HttpController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/controller/HttpController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="85">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="35" />
               <folding>
                 <element signature="e#0#54#0" expanded="false" />
               </folding>
@@ -49,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calcService.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/service/calcService.js">
+      <file leaf-file-name="HttpService.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/service/HttpService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="204">
+              <caret line="14" column="106" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
               <folding>
                 <element signature="e#0#54#0" expanded="false" />
               </folding>
@@ -102,6 +100,10 @@
         <option value="$PROJECT_DIR$/ServicesDemo.html" />
         <option value="$PROJECT_DIR$/scripts/controller/calController.js" />
         <option value="$PROJECT_DIR$/scripts/service/calcService.js" />
+        <option value="$PROJECT_DIR$/test.dat" />
+        <option value="$PROJECT_DIR$/HttpServicesDemo.html" />
+        <option value="$PROJECT_DIR$/scripts/controller/HttpController.js" />
+        <option value="$PROJECT_DIR$/scripts/service/HttpService.js" />
       </list>
     </option>
   </component>
@@ -210,6 +212,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myWorkSpace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myWorkSpace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -240,10 +260,7 @@
       <recent name="C:\Users\training_h2a.09.20\Desktop\myWorkSpace\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ServicesDemo.html">
-    <configuration default="false" name="FilterDemo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/myWorkSpace/FilterDemo.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.HttpServicesDemo.html">
     <configuration default="false" name="FormDemo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/myWorkSpace/FormDemo.html">
       <method />
     </configuration>
@@ -254,6 +271,9 @@
       <method />
     </configuration>
     <configuration default="false" name="ServicesDemo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/myWorkSpace/ServicesDemo.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="HttpServicesDemo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/myWorkSpace/HttpServicesDemo.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -310,19 +330,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.FilterDemo.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.FormDemo.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.UIRoutingDemo.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.CustomDirective.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ServicesDemo.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.FormDemo.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.UIRoutingDemo.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CustomDirective.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ServicesDemo.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.HttpServicesDemo.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ServicesDemo.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.CustomDirective.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.UIRoutingDemo.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.FormDemo.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.FilterDemo.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.HttpServicesDemo.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ServicesDemo.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CustomDirective.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.UIRoutingDemo.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.FormDemo.html" />
       </list>
     </recent_temporary>
   </component>
@@ -346,12 +366,12 @@
       <workItem from="1478152636812" duration="1267000" />
       <workItem from="1478154173953" duration="8000" />
       <workItem from="1478154322894" duration="17542000" />
-      <workItem from="1478232958983" duration="7171000" />
+      <workItem from="1478232958983" duration="11325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49056000" />
+    <option name="totallyTimeSpent" value="53210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
@@ -365,7 +385,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12327189" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3986175" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -694,8 +714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/controller/calController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="17">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="38" />
           <folding>
             <element signature="e#0#54#0" expanded="false" />
           </folding>
@@ -714,6 +734,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#54#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServicesDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controller/HttpController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#54#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/service/HttpService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="106" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
           <folding>
             <element signature="e#0#54#0" expanded="false" />
           </folding>
